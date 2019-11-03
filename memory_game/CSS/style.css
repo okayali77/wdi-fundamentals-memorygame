@@ -1,19 +1,28 @@
 body{
 	text-align: center;
+	margin: 0;
+}
+
+header {
+	background-color: #F15B31;
+	color: #FFFFFF;
+	padding: 30px 20px;
 }
 
 h1 {
 	font-family: "Raleway", sans-serif;
-	color: #0D2C40;
 	letter-spacing:1px;
 	font-weight: 400;
 	font-size:45px;
+	margin: 0;
 }
 
 a {
 	font-family: "Raleway", sans-serif;
 	font-size:18px;
-	color: #F15B31;
+	color: #FFFFFF;
+  margin-left: 20px;
+	margin-right: 20px;
 	letter-spacing:1px;
 	font-weight: 600;
 	text-decoration: none;
@@ -31,4 +40,20 @@ p {
 	font-family: "Droid Serif", serif;
 	line-height:26px;
 	font-size:18px;
+}
+
+nav {
+	background-color: #00A6B3;
+	color: #FFFFFF;
+	padding: 20px 0;
+
+}
+
+main {
+	width: 850px;
+	margin: 0 auto;
+}
+
+img{
+	margin: 40px 8px 0 8px;
 }
