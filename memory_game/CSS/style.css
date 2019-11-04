@@ -21,11 +21,16 @@ a {
 	font-family: "Raleway", sans-serif;
 	font-size:18px;
 	color: #FFFFFF;
-  margin-left: 20px;
+  	margin-left: 20px;
 	margin-right: 20px;
 	letter-spacing:1px;
 	font-weight: 600;
 	text-decoration: none;
+	border-bottom: 2px solid transparent;
+}
+
+a:hover{
+	border-color: white;
 }
 
 h2 {
@@ -57,3 +62,36 @@ main {
 img{
 	margin: 40px 8px 0 8px;
 }
+
+footer {
+	text-transform: uppercase;
+	padding: 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+.copyright{
+	float: left;
+}
+
+.message {
+	float: right;
+}
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
+
